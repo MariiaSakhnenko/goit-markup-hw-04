@@ -117,6 +117,11 @@ img {
 .hero {
     padding: 200px 0;
     background-color: var(--main-bg-cl);
+
+    background-image: url(/images/back/hero_image.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
 }
 .hero-title {
     font-weight: 900;
