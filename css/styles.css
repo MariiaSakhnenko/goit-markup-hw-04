@@ -120,7 +120,7 @@ img {
 
     background-image: url(/images/back/hero_image.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: 50% 50%;
 }
 .hero-title {
