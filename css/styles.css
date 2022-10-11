@@ -112,16 +112,16 @@ img {
 .contacts-item .link:focus {
     color: var(--accent-text-color);
 }
-
+/* linear-gradient(#2F303A, #C4C4C4) */
 /* main */
 .hero {
     padding: 200px 0;
-    background-color: var(--main-bg-cl);
 
-    background-image: url(/images/back/hero_image.jpg);
+    background-image: url(/images/back/hero.jpg), 
+    linear-gradient(to bottom, #C4C4C4, #2F303A);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 50% 50%;
+
 }
 .hero-title {
     font-weight: 900;
