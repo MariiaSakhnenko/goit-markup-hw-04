@@ -120,7 +120,7 @@ img {
     background-image: url('../images/back/hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 100%;
+    background-size: 1600px;
 }
 .hero-title {
     font-weight: 900;
