@@ -106,21 +106,29 @@ img {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--third--text--color)
+    color: var(--third--text--color);
 }
 .contacts-item .link:hover,
 .contacts-item .link:focus {
     color: var(--accent-text-color);
 }
-/* linear-gradient(#2F303A, #C4C4C4) */
+
 /* main */
 .hero {
     padding: 200px 0;
     background-color: var(--main-bg-cl);
-    background-image: url('../images/back/hero.jpg');
+}
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: 
+    linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/back/hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1600px;
+    background-size: cover;
 }
 .hero-title {
     font-weight: 900;
