@@ -119,16 +119,12 @@ img {
     background-color: var(--main-bg-cl);
 }
 .overlay {
-    max-width: 1600px;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
     background-image: 
     linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/back/hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 1600px 600px;
 }
 .hero-title {
     font-weight: 900;
