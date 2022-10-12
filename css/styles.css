@@ -111,6 +111,13 @@ img {
 .contacts-item .link:hover,
 .contacts-item .link:focus {
     color: var(--accent-text-color);
+    stroke: var(--accent-text-color);
+    stroke-width: 2px;
+}
+.contacts-icon {
+    fill: currentColor;
+    margin-right: 10px;
+    float: left;
 }
 
 /* main */
@@ -164,8 +171,10 @@ img {
     display: flex;
     gap: 30px;
 }
-.benefits-item {
+.benefits-icon {
     width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
 }
 .benefits-title {
     margin-bottom: 10px;
