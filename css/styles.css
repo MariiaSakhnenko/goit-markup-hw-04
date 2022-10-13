@@ -93,8 +93,9 @@ img {
 }
 .site-contacts {
     display: flex;
-    margin-left: auto;
     gap: 50px;
+
+    margin-left: auto;
 }
 .contacts-item .link {
     display: block;
@@ -129,6 +130,7 @@ img {
     height: 600px;
     margin-left: auto;
     margin-right: auto;
+    
     background-image: 
     linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/back/hero.jpg');
