@@ -112,7 +112,6 @@ img {
 .contacts-item .link:focus {
     color: var(--accent-text-color);
     stroke: var(--accent-text-color);
-    stroke-width: 2px;
 }
 .contacts-icon {
     fill: currentColor;
@@ -171,10 +170,14 @@ img {
     display: flex;
     gap: 30px;
 }
-.benefits-icon {
-    width: 270px;
+.benefits-wrapper {
+    display: flex;
     height: 120px;
+    border-radius: 4px;
     margin-bottom: 30px;
+    background-color: #F5F4F4;
+    justify-content: center;
+    align-items: center;
 }
 .benefits-title {
     margin-bottom: 10px;
@@ -250,6 +253,20 @@ img {
     font-size: 16px;
     line-height: 1.19;
     color: var(--third--text--color);
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.social-button {
+    padding: 0;
+    border: none;
+    background-color: var(--secondary-text-color);
+}
+.icon-button {
+    width: 44px;
+    height: 44px;
 }
 
 /* main portfolio */
