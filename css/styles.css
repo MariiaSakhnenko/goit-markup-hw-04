@@ -112,13 +112,10 @@ img {
 .contacts-item .link:hover,
 .contacts-item .link:focus {
     color: var(--accent-text-color);
-    stroke: var(--accent-text-color);
 }
 .contacts-icon {
     fill: currentColor;
     margin-right: 10px;
-    float: left;
-    stroke-width: 2px;
 }
 
 /* main */
@@ -312,7 +309,7 @@ img {
     border-color: var(--accent-text-color);
 }
 .clients-icon {
-    fill: #AFB1B8;
+    fill: currentColor;
 }
 .clients-icon:hover, 
 .clients-icon:focus {
